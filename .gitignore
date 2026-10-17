@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+build/raw/
+build/out/
+build/batch/
+__pycache__/
+.pytest_cache/
+*.log
