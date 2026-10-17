@@ -1,0 +1,9 @@
+# Copia este archivo a .dev.vars (está en .gitignore) para `npx wrangler dev`.
+# Clave de console.anthropic.com. Con MOCK_AI=1 no hace falta.
+ANTHROPIC_API_KEY=sk-ant-...
+# Códigos válidos separados por comas (genera uno con `npm run gen-code`).
+ALLOWED_CODES=ABCD-EFGH-JKLM
+# Origen de la PWA (localhost:5173 y :4173 ya están permitidos siempre).
+ALLOWED_ORIGIN=https://catala-zh.pages.dev
+# 1 = respuestas fijas sin llamar a Anthropic (para probar sin clave).
+MOCK_AI=1

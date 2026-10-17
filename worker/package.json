@@ -1,0 +1,32 @@
+{
+  "name": "catala-zh-worker",
+  "version": "1.0.0",
+  "description": "Proxy de Claude Haiku 5.5, caché KV y sincronización D1 para Català ⇄ 中文",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "deploy": "wrangler deploy",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "gen-code": "node scripts/gen-code.mjs",
+    "db:migrate:local": "wrangler d1 migrations apply catala_zh --local",
+    "db:migrate:remote": "wrangler d1 migrations apply catala_zh --remote"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.4.4",
+    "@cloudflare/workers-types": "^5.20261016.1",
+    "typescript": "^7.0.2",
+    "vitest": "~4.1.11",
+    "wrangler": "^4.151.1"
+  },
+  "allowScripts": {
+    "workerd@1.20260815.1": true,
+    "workerd@1.20261012.1": true,
+    "esbuild@0.28.1": true,
+    "esbuild@0.28.2": true
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0"
+  },
+  "private": true
+}

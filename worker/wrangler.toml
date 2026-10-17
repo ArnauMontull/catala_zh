@@ -1,0 +1,30 @@
+# Worker de «Català ⇄ 中文»: proxy de Claude Haiku 5.5 + caché KV + sincronización D1.
+# Pasos completos en README.md.
+name = "catala-zh-api"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+# Variables no secretas. Los secretos (ANTHROPIC_API_KEY, ALLOWED_CODES) van con
+# `npx wrangler secret put <NOMBRE>`; en local, en el archivo .dev.vars.
+[vars]
+DAILY_LIMIT = "150"
+# Origen de la PWA en producción (sin barra final). Cámbialo por la URL real de Pages.
+ALLOWED_ORIGIN = "https://catala-zh.pages.dev"
+MOCK_AI = "0"
+
+# KV para la caché de respuestas y los contadores diarios.
+# Crear con:  npx wrangler kv namespace create CACHE
+# y pegar aquí el "id" que imprime.
+[[kv_namespaces]]
+binding = "CACHE"
+id = "00000000000000000000000000000000"
+
+# D1 para las tarjetas.
+# Crear con:  npx wrangler d1 create catala_zh
+# y pegar aquí el "database_id" que imprime.
+# Migración:  npx wrangler d1 migrations apply catala_zh --remote
+[[d1_databases]]
+binding = "DB"
+database_name = "catala_zh"
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"

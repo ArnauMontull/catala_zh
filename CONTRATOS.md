@@ -11,6 +11,11 @@ Si cambias algo, cámbialo aquí primero y avisa a las otras dos partes.
 
 Ejemplos: `Col·legi` → `collegi`; `què` → `que`. Para el chino no se normaliza nada (solo trim).
 
+`cacheNorm(s)` (solo para la clave de caché del Worker):
+- Aplica NFC y pasa a minúsculas.
+- Convierte `l.l` en `l·l` y colapsa los espacios.
+- **Conserva los acentos**, para que «té/te», «és/es» y «mà/ma» no compartan explicación.
+
 ## 2. Datos estáticos (`app/public/data/`, los genera `build/`)
 Todo es JSON plano en UTF-8 (Cloudflare lo comprime al servirlo).
 
