@@ -1,0 +1,336 @@
+{
+ "sections": [
+  {
+   "id": "intro",
+   "title_en": "What are weak pronouns?",
+   "title_zh": "什么是弱代词（pronoms febles）？",
+   "body_en": "Catalan has small, unstressed pronouns that stick to the verb: **em, et, es, ens, us, el, la, els, les, li, ho, en, hi**.\nThey replace a noun you already mentioned, so you don't repeat it.\n\n- *Veus **el gos**? — Sí, **el** veig.* (el = the dog)\n- They never stand alone: they always go **right before** or **right after** a verb.\n- Spanish has some of them (*me, te, se, lo, la, le*), but Catalan also has **en** and **hi**, which Spanish doesn't have.",
+   "body_zh": "加泰罗尼亚语有一组很短、不重读、紧贴动词的代词：**em, et, es, ens, us, el, la, els, les, li, ho, en, hi**。\n它们用来代替前面已经说过的名词，避免重复。\n\n- *Veus **el gos**? — Sí, **el** veig.*（el = 那只狗）\n- 它们不能单独使用，总是紧挨在动词**前面**或**后面**。\n- 西班牙语里也有类似的（*me, te, se, lo, la, le*），但加泰罗尼亚语还有 **en** 和 **hi**，西班牙语没有。",
+   "examples": [
+    {
+     "ca": "Veus el gos? Sí, el veig.",
+     "zh": "你看见那只狗了吗？看见了。",
+     "en": "Do you see the dog? Yes, I see it."
+    },
+    {
+     "ca": "Coneixes la Marta? Sí, la conec.",
+     "zh": "你认识玛尔塔吗？认识。",
+     "en": "Do you know Marta? Yes, I know her."
+    },
+    {
+     "ca": "Vols cafè? No, gràcies, no en vull.",
+     "zh": "你要咖啡吗？不用了，谢谢。",
+     "en": "Do you want coffee? No thanks, I don't want any."
+    },
+    {
+     "ca": "Vas a Girona? Sí, hi vaig demà.",
+     "zh": "你去赫罗纳吗？对，我明天去。",
+     "en": "Are you going to Girona? Yes, I'm going there tomorrow."
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "title_en": "Which pronoun replaces what?",
+   "title_zh": "每个代词代替什么？",
+   "body_en": "| Pronoun | Replaces | Like English |\n|---|---|---|\n| **em / et / es / ens / us** | me, you, himself/herself, us, you (pl.) | me, you, oneself… |\n| **el, la, els, les** | a *definite* direct object (*el llibre, la casa*) | it, him, her, them |\n| **li / els** | an indirect object: the person who receives (*a la Maria*) | to him, to her, to them |\n| **ho** | a whole idea, or *això, allò* | it, that |\n| **en** | an amount or an indefinite object (*pa, dues pomes*), or *de + something* | some, any, of it |\n| **hi** | a place (*a Barcelona, a casa*), and in **hi ha** | there |",
+   "body_zh": "| 代词 | 代替什么 | 相当于 |\n|---|---|---|\n| **em / et / es / ens / us** | 我、你、他/她自己、我们、你们 | me, you… |\n| **el, la, els, les** | 有定的直接宾语（*el llibre* 这本书，*la casa* 这个房子） | 它、他、她、他们 |\n| **li / els** | 间接宾语：接受东西的人（*a la Maria* 给玛丽亚） | 给他/她/他们 |\n| **ho** | 一整件事、一个想法，或 *això, allò*（这、那） | 这件事 |\n| **en** | 数量、不定的东西（*pa* 面包、*dues pomes* 两个苹果），或 *de + 某物* | 一些、其中的 |\n| **hi** | 地点（*a Barcelona, a casa*），以及固定说法 **hi ha**（有） | 那里 |",
+   "examples": [
+    {
+     "ca": "Dono el llibre a la Maria. → Li dono el llibre.",
+     "zh": "我把书给玛丽亚。→ 我把书给她。",
+     "en": "I give the book to Maria. → I give her the book."
+    },
+    {
+     "ca": "No sé això. → No ho sé.",
+     "zh": "我不知道这个。→ 我不知道。",
+     "en": "I don't know that. → I don't know."
+    },
+    {
+     "ca": "Tens germans? Sí, en tinc dos.",
+     "zh": "你有兄弟姐妹吗？有，我有两个。",
+     "en": "Do you have siblings? Yes, I have two."
+    },
+    {
+     "ca": "Vius a Barcelona? Sí, hi visc.",
+     "zh": "你住在巴塞罗那吗？对，我住在那里。",
+     "en": "Do you live in Barcelona? Yes, I live there."
+    },
+    {
+     "ca": "Hi ha un bar a prop?",
+     "zh": "附近有酒吧吗？",
+     "en": "Is there a bar nearby?"
+    }
+   ]
+  },
+  {
+   "id": "forms",
+   "title_en": "The four shapes of each pronoun",
+   "title_zh": "每个代词的四种形式",
+   "body_en": "Each pronoun changes shape depending on **where** it goes and **what sound** is next to it:\n\n- **Before** the verb: the *reinforced* form before a consonant (**el** veig), the *elided* form with an apostrophe before a vowel or *h* (**l'**escolto).\n- **After** the verb (joined with a hyphen or an apostrophe): the *full* form after a consonant or *-u* (menjar-**lo**), the *reduced* form after a vowel (menja**'l**).\n\nDon't memorise the whole table at once: start with **el / la / els / les** and **em / et**.",
+   "body_zh": "每个代词的形式会根据它的**位置**和旁边的**发音**而改变：\n\n- 在动词**前面**：动词以辅音开头时用*强化形式*（**el** veig）；以元音或 *h* 开头时用*省略形式*，加撇号（**l'**escolto）。\n- 在动词**后面**（用连字符或撇号连接）：动词以辅音或 *-u* 结尾时用*完整形式*（menjar-**lo**）；以元音结尾时用*缩减形式*（menja**'l**）。\n\n不用一次背完整张表：先学 **el / la / els / les** 和 **em / et**。",
+   "examples": [
+    {
+     "ca": "El veig. / L'escolto.",
+     "zh": "我看见他。/ 我听他说。",
+     "en": "I see him. / I listen to him."
+    },
+    {
+     "ca": "Vull menjar-lo.",
+     "zh": "我想吃它。",
+     "en": "I want to eat it."
+    },
+    {
+     "ca": "Menja'l!",
+     "zh": "把它吃了！",
+     "en": "Eat it!"
+    },
+    {
+     "ca": "M'agrada. / Em diu hola.",
+     "zh": "我喜欢。/ 他跟我说你好。",
+     "en": "I like it. / He says hello to me."
+    }
+   ],
+   "table": {
+    "head": [
+     "",
+     "before + consonant",
+     "before + vowel/h",
+     "after consonant / -u",
+     "after vowel"
+    ],
+    "rows": [
+     [
+      "1s (me)",
+      "em",
+      "m'",
+      "-me",
+      "'m"
+     ],
+     [
+      "2s (you)",
+      "et",
+      "t'",
+      "-te",
+      "'t"
+     ],
+     [
+      "3 reflexive",
+      "es",
+      "s'",
+      "-se",
+      "'s"
+     ],
+     [
+      "1p (us)",
+      "ens",
+      "ens",
+      "-nos",
+      "'ns"
+     ],
+     [
+      "2p (you pl.)",
+      "us",
+      "us",
+      "-vos",
+      "-us"
+     ],
+     [
+      "direct m. (him/it)",
+      "el",
+      "l'",
+      "-lo",
+      "'l"
+     ],
+     [
+      "direct f. (her/it)",
+      "la",
+      "l'",
+      "-la",
+      "-la"
+     ],
+     [
+      "direct m. pl.",
+      "els",
+      "els",
+      "-los",
+      "'ls"
+     ],
+     [
+      "direct f. pl.",
+      "les",
+      "les",
+      "-les",
+      "-les"
+     ],
+     [
+      "indirect sg. (to him/her)",
+      "li",
+      "li",
+      "-li",
+      "-li"
+     ],
+     [
+      "indirect pl. (to them)",
+      "els",
+      "els",
+      "-los",
+      "'ls"
+     ],
+     [
+      "neuter (it/that)",
+      "ho",
+      "ho",
+      "-ho",
+      "-ho"
+     ],
+     [
+      "en (some/of it)",
+      "en",
+      "n'",
+      "-ne",
+      "'n"
+     ],
+     [
+      "hi (there)",
+      "hi",
+      "hi",
+      "-hi",
+      "-hi"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "position",
+   "title_en": "Before or after the verb?",
+   "title_zh": "放在动词前面还是后面？",
+   "body_en": "- **Before** a normal conjugated verb: ***La** compro.* (I buy it.)\n- **After** an **infinitive** (*-ar, -er, -re, -ir*), a **gerund** (*-ant, -ent, -int*) or an **imperative**: *Vull comprar-**la**.* / *Compra-**la**!*\n- With **two verbs** (*vull + infinitive, puc, vaig a…*) you can choose: ***La** vull comprar* = *Vull comprar-**la***. Both are correct.\n- With **no**, the pronoun stays before the conjugated verb: *No **el** veig.*",
+   "body_zh": "- 在普通的变位动词**前面**：***La** compro.*（我买它。）\n- 在**不定式**（*-ar, -er, -re, -ir*）、**副动词**（*-ant, -ent, -int*）或**命令式**的**后面**：*Vull comprar-**la**.* / *Compra-**la**!*\n- 有**两个动词**时（*vull + 不定式、puc、vaig a…*）两种位置都可以：***La** vull comprar* = *Vull comprar-**la***。\n- 有否定词 **no** 时，代词仍在变位动词前面：*No **el** veig.*",
+   "examples": [
+    {
+     "ca": "La compro.",
+     "zh": "我买它。",
+     "en": "I buy it."
+    },
+    {
+     "ca": "Vull comprar-la. = La vull comprar.",
+     "zh": "我想买它。",
+     "en": "I want to buy it."
+    },
+    {
+     "ca": "Compra-la!",
+     "zh": "买下它吧！",
+     "en": "Buy it!"
+    },
+    {
+     "ca": "No el veig.",
+     "zh": "我看不见他。",
+     "en": "I can't see him."
+    },
+    {
+     "ca": "Estic mirant-te.",
+     "zh": "我正在看着你。",
+     "en": "I'm looking at you."
+    }
+   ]
+  },
+  {
+   "id": "reflexive",
+   "title_en": "Reflexive verbs: em dic, et dius…",
+   "title_zh": "自反动词：em dic, et dius…",
+   "body_en": "Many everyday verbs carry a pronoun that refers back to the subject. In the dictionary they end in **-se**: *dir-se* (to be called), *llevar-se* (to get up), *dutxar-se* (to shower).\n\n| | dir-se |\n|---|---|\n| jo | **em** dic |\n| tu | **et** dius |\n| ell / ella | **es** diu |\n| nosaltres | **ens** diem |\n| vosaltres | **us** dieu |\n| ells / elles | **es** diuen |",
+   "body_zh": "很多日常动词带一个指回主语的代词。在词典里它们以 **-se** 结尾：*dir-se*（名叫）、*llevar-se*（起床）、*dutxar-se*（洗澡）。\n\n| | dir-se |\n|---|---|\n| jo 我 | **em** dic |\n| tu 你 | **et** dius |\n| ell / ella 他/她 | **es** diu |\n| nosaltres 我们 | **ens** diem |\n| vosaltres 你们 | **us** dieu |\n| ells / elles 他们 | **es** diuen |",
+   "examples": [
+    {
+     "ca": "Com et dius? Em dic Mei.",
+     "zh": "你叫什么名字？我叫梅。",
+     "en": "What's your name? My name is Mei."
+    },
+    {
+     "ca": "Em llevo a les set.",
+     "zh": "我七点起床。",
+     "en": "I get up at seven."
+    },
+    {
+     "ca": "Ens veiem demà!",
+     "zh": "明天见！",
+     "en": "See you tomorrow!"
+    },
+    {
+     "ca": "Ella es dutxa al matí.",
+     "zh": "她早上洗澡。",
+     "en": "She showers in the morning."
+    }
+   ]
+  },
+  {
+   "id": "combos",
+   "title_en": "Two pronouns together",
+   "title_zh": "两个代词连用",
+   "body_en": "Sometimes you need two pronouns: *give **it** to **me***. Order: **em / et / ens / us** (or **es**) first, then **el / la / ho / en**.\nBefore the verb, *em, et, es* become **me, te, se**:\n\n- em + el → **me'l** · em + la → **me la** · em + ho → **m'ho** · em + en → **me'n**\n- es + en → **se'n** (*Se'n va.* He's leaving.)\n- **li** + el → **l'hi** · li + la → **la hi** · li + ho → **li ho** (in speech it often sounds like *l'hi*)\n- **hi ha** + en → **n'hi ha** (there are some)\n\nVery common fixed phrases: *me'n vaig* (I'm leaving), *n'hi ha prou* (that's enough), *m'ho dius?* (will you tell me?).",
+   "body_zh": "有时需要两个代词：*把**它**给**我***。顺序是：先 **em / et / ens / us**（或 **es**），再 **el / la / ho / en**。\n在动词前面，*em, et, es* 变成 **me, te, se**：\n\n- em + el → **me'l** · em + la → **me la** · em + ho → **m'ho** · em + en → **me'n**\n- es + en → **se'n**（*Se'n va.* 他要走了。）\n- **li** + el → **l'hi** · li + la → **la hi** · li + ho → **li ho**（口语里常常听起来像 *l'hi*）\n- **hi ha** + en → **n'hi ha**（有一些）\n\n非常常用的固定说法：*me'n vaig*（我走了）、*n'hi ha prou*（够了）、*m'ho dius?*（你告诉我好吗？）。",
+   "examples": [
+    {
+     "ca": "Me'l dones?",
+     "zh": "你把它给我好吗？",
+     "en": "Will you give it to me?"
+    },
+    {
+     "ca": "Te la deixo.",
+     "zh": "我把它借给你。",
+     "en": "I'll lend it to you."
+    },
+    {
+     "ca": "Li ho explico.",
+     "zh": "我跟他解释这件事。",
+     "en": "I'll explain it to him."
+    },
+    {
+     "ca": "Hi ha pa? Sí, n'hi ha.",
+     "zh": "有面包吗？有。",
+     "en": "Is there bread? Yes, there is some."
+    },
+    {
+     "ca": "Ja me'n vaig.",
+     "zh": "我这就走了。",
+     "en": "I'm leaving now."
+    }
+   ]
+  },
+  {
+   "id": "phrases",
+   "title_en": "Phrases to learn by heart",
+   "title_zh": "要背下来的常用句",
+   "body_en": "These everyday phrases all contain a weak pronoun. Learn them as one block; the grammar will make sense later.",
+   "body_zh": "下面这些日常用语都含有弱代词。先整句背下来，语法以后自然就懂了。",
+   "examples": [
+    {
+     "ca": "No ho sé.",
+     "zh": "我不知道。",
+     "en": "I don't know."
+    },
+    {
+     "ca": "Ho sento.",
+     "zh": "对不起。/ 很抱歉。",
+     "en": "I'm sorry."
+    },
+    {
+     "ca": "T'estimo.",
+     "zh": "我爱你。",
+     "en": "I love you."
+    },
+    {
+     "ca": "M'agrada molt.",
+     "zh": "我很喜欢。",
+     "en": "I like it a lot."
+    },
+    {
+     "ca": "Tens pomes? Sí, quantes en vols?",
+     "zh": "你有苹果吗？有，你要几个？",
+     "en": "Do you have apples? Yes, how many do you want?"
+    }
+   ]
+  }
+ ]
+}

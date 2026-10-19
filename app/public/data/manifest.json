@@ -1,0 +1,32 @@
+{
+ "version": "2026-10-17.3",
+ "counts": {
+  "entries": 5014,
+  "forms": 48649,
+  "verbs": 731,
+  "with_example": 0
+ },
+ "source": "pivot",
+ "files": [
+  {
+   "name": "entries.json",
+   "bytes": 1043877,
+   "sha256": "b982bada353a4a895c0599e21851530701fd8dc6c1cb0c9295114191bfaca0de"
+  },
+  {
+   "name": "index.json",
+   "bytes": 2299742,
+   "sha256": "cc253db797aa11a60e9852d9bee461bd345484387986570a164f29018aac02e9"
+  },
+  {
+   "name": "conj.json",
+   "bytes": 1156132,
+   "sha256": "62882ba99b83a54551ae3bd25a25cc42abb5d6e7d8b60cfa529f49e789c0f799"
+  },
+  {
+   "name": "febles.json",
+   "bytes": 13221,
+   "sha256": "54d47e73053bb7c4021051f0696adcfc77077c41913606832d674f16a198cc8c"
+  }
+ ]
+}
