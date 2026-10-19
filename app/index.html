@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Català 中文</title>
+    <meta name="description" content="Catalan ⇄ Chinese pocket dictionary · 加泰罗尼亚语 ⇄ 中文 词典" />
+    <meta name="theme-color" content="#fbf5ec" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1613" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Català 中文" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <style>
+      /* Critical paint before the CSS bundle: no white flash in dark mode. */
+      html { background: #fbf5ec; }
+      @media (prefers-color-scheme: dark) { html { background: #1a1613; } }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

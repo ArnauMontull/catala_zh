@@ -1,0 +1,29 @@
+{
+  "version": "sample-2026-10-17.1",
+  "counts": {
+    "entries": 51,
+    "forms": 250
+  },
+  "files": [
+    {
+      "name": "entries.json",
+      "bytes": 12500,
+      "sha256": "9f0ed235d1b196e8450ec485559cf7591910ca96f0a6634566b24a8ebf601088"
+    },
+    {
+      "name": "index.json",
+      "bytes": 13262,
+      "sha256": "273333dc6b1b1e7e82e2bfd59dd65ebcbd09cff4d07d1cd280dc0627ac6e12ec"
+    },
+    {
+      "name": "conj.json",
+      "bytes": 6759,
+      "sha256": "a5c6dc60abcd5f04d612218c02c8a0cdfa37639b967f1970acff8b3b5bbeadf9"
+    },
+    {
+      "name": "febles.json",
+      "bytes": 2213,
+      "sha256": "3b96e1adf5e54c3aefacffdda80f3c8c90b114c026aad872ee037e3e01374fb4"
+    }
+  ]
+}

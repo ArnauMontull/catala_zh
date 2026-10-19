@@ -1,0 +1,8 @@
+# PWA estática servida por Workers (Static Assets). Despliegue:
+#   $env:VITE_API_URL='https://catala-zh-api.arnau-montull.workers.dev'; npm run build; npx wrangler deploy
+name = "catala-zh"
+compatibility_date = "2026-10-01"
+
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
